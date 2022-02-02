@@ -1,0 +1,37 @@
+details,
+summary {
+  outline: none;
+  user-select: none;
+}
+
+details {
+  cursor: pointer;
+  outline: none;
+  width: 400px;
+  margin: 10px auto;
+  background: rgb(100, 6, 6);
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  font-style: italic;
+  border-radius: 30px;
+}
+details img {
+  max-width: 12%;
+  max-height: 12%;
+  margin-left: -4%;
+  float: left !important;
+  margin-top: 2%;
+}
+
+details p {
+  color: white;
+  margin-top: 7%;
+}
+
+details:hover {
+  background: rgb(121, 5, 5);
+}
+details p:hover {
+  color: rgb(231, 12, 12);
+}
